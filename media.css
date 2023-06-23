@@ -1,0 +1,103 @@
+@media screen and (max-width: 767px) {
+  /* Styles pour les petits écrans */
+  .nav{
+    width:100%;
+    height:80px;
+    background-color: black;
+}
+.div1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(31, 26, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+.div2{
+    width: 100%;
+    height:50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div3{
+    width:100px;
+    height: 80px;
+    background-color: orange;
+    margin-left: 3%;
+    position: absolute;
+    top:0%;
+}
+.sect1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    background: rgba(0,0,0,0.7)url(fond.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h11{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+ul li a{
+    padding:15px 15px;
+    
+}
+.div0{
+    margin-left: 130px;
+}
+.div6{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 55px;
+}
+.h12{
+    text-align: center;
+    font-size: 40px;
+}
+.div7{
+    width: 30%;
+    height: 45px;
+    border:1px solid white;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.sect2{
+    width: 100%;
+    height:300px;
+    background-color: grey;
+}
+.div8{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 105%;
+    left: 15vh;
+}
+.h13{
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 55%;
+}
+.h14{
+    color:red;
+    position: absolute;
+    top: 105%;
+    left: 15%;
+}
+}
