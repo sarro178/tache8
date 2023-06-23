@@ -1,4 +1,38 @@
 @media screen and (min-width: 1024px) {
     /* Styles pour les grands écrans */
+    .div3{
+      width:130px;
+      height: 120px;
+      background-color: orange;
+      margin-left: 7%;
+      position: absolute;
+      top:0%;
+  }
+  .div5{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+}
+.div8{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 82%;
+  left: 30vh;
+}
+.h13{
+  color: white;
+  position: absolute;
+  top: 82%;
+  left: 53%;
+}
+.h14{
+  color:red;
+  position: absolute;
+  top: 82%;
+  left: 24%;
+}
   }
   

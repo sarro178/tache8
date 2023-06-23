@@ -121,8 +121,8 @@ ul li a{
     display: flex;
     justify-content: space-around;
     position: absolute;
-    top: 105%;
-    left: 65vh;
+    top: 300%;
+    left: 90vh;
 }
 .puma2{
 filter: blur(2px);
@@ -160,12 +160,12 @@ background: rgba(0,0,0,0.9);
 .h13{
     color: white;
     position: absolute;
-    top: 105%;
-    left: 52%;
+    top: 95%;
+    left: 60%;
 }
 .h14{
     color:red;
     position: absolute;
-    top: 105%;
+    top: 95%;
     left: 30%;
 }
